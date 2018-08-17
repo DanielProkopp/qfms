@@ -1,4 +1,6 @@
 language: cpp
 
+script: ./configure
+
 build:
-    source ./configure --prefix=./dist && make
+    ./configure --prefix=./dist && make

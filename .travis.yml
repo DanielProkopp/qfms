@@ -1,6 +1,6 @@
 language: cpp
 
-script: ./configure cmake make
+script: ./configure
 
 build:
     cmake ./ && ./configure --prefix=./dist && make

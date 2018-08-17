@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cat `ls -F |grep "\."|grep -v [\*/]| grep -v moc |grep -v \.o$ |grep -v ".*\.ui$"\
+        |grep -v Makefile | grep -v "\.cw" | grep -v ".*\.ui.h$"` | wc -l

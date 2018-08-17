@@ -1,0 +1,6 @@
+machine newCanvasSize -> DA resizeContents
+DA updateCanvasSize   -> machine updateCanvasSize
+SV resizeEvent        -> DA resizeContents (+ lower bound)
+
+DA scrollWidget       -> SV scrollContents
+DA scrollWidgetTo     -> SV scrollContentsTo

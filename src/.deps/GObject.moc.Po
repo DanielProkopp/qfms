@@ -1,0 +1,1 @@
+GObject.moc.o GObject.moc.o: GObject.moc.cpp

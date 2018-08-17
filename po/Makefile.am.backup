@@ -1,0 +1,7 @@
+qfsmdir = $(prefix)/qfsm
+qfsmpodir= $(qfsmdir)/po
+
+EXTRA_DIST = German.ts English.ts French.ts \
+	German.qm English.qm French.qm
+
+qfsmpo_DATA = German.qm English.qm French.qm

@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN" "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="666" x="-5" y="17" height="492" id="/home/stefan/prog/qfsm/src/export_test/test" >
+ <circle cx="585" cy="405" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="580" cy="400" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="580" y="390" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_8</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="400" y2="400" x1="545" x2="615" />
+ <text x="580" y="420" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >/8</text>
+ <circle cx="566" cy="125" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="561" cy="120" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="562" y="110" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_7</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="120" y2="120" x1="526" x2="596" />
+ <text x="562" y="140" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >h/7</text>
+ <circle cx="622" cy="281" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="617" cy="276" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="617" y="266" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_6</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="276" y2="276" x1="582" x2="652" />
+ <text x="617" y="297" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >g/6</text>
+ <circle cx="381" cy="450" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="376" cy="445" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="376" y="435" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_5</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="445" y2="445" x1="341" x2="411" />
+ <text x="376" y="465" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >f/5</text>
+ <circle cx="127" cy="445" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="122" cy="440" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="122" y="430" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_4</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="440" y2="440" x1="87" x2="157" />
+ <text x="122" y="461" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >e/4</text>
+ <circle cx="454" cy="283" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="449" cy="278" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <circle cx="449" cy="278" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="36" />
+ <text x="449" y="269" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_3</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="278" y2="278" x1="416" x2="482" />
+ <text x="449" y="297" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >d/3</text>
+ <circle cx="229" cy="285" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="224" cy="280" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="225" y="270" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_2</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="280" y2="280" x1="189" x2="259" />
+ <text x="225" y="300" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >c/2</text>
+ <circle cx="392" cy="122" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="387" cy="117" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="387" y="107" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_1</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="117" y2="117" x1="352" x2="422" />
+ <text x="387" y="138" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >b/1</text>
+ <circle cx="163" cy="122" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:0;fill:rgb(128,128,128);" r="40" />
+ <circle cx="158" cy="117" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" r="40" />
+ <text x="158" y="107" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >State_0</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="117" y2="117" x1="123" x2="193" />
+ <text x="158" y="137" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Utopia;" text-anchor="middle" >a/0</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 198 116 C 247 116 297 116 347 116" />
+ <polygon points="332 111 347 116 332 121 337 116" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="31" x="257" y="104" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="272" y="121" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >-/4</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 159 157 C 171 189 183 221 195 253" />
+ <polygon points="195 238 195 253 185 242 191 244" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="52" x="151" y="193" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="177" y="210" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >a-f/\r</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 401 155 C 412 183 424 212 436 240" />
+ <polygon points="435 225 436 240 426 229 432 231" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="52" x="392" y="185" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="418" y="202" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >l/\043</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 381 78 C 339 7 474 35 408 83" />
+ <polygon points="421 77 408 83 414 70 415 76" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="45" x="381" y="24" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="403" y="41" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >\s/\n</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 426 118 C 458 118 490 118 521 117" />
+ <polygon points="507 112 521 117 507 123 511 117" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="45" x="451" y="106" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="473" y="123" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >t-v/k</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 203 314 C 183 345 164 376 145 407" />
+ <polygon points="156 398 145 407 148 393 150 399" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="52" x="148" y="349" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="174" y="366" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >\06c/a</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 228 240 C 217 205 205 169 194 133" />
+ <polygon points="193 148 194 133 203 145 197 143" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="31" x="195" y="175" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="210" y="192" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >!-}</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 413 296 C 328 339 243 381 158 424" />
+ <polygon points="173 422 158 424 169 413 167 419" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="52" x="259" y="348" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="285" y="365" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >A-Z/\n</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 472 310 C 502 328 532 346 562 364" />
+ <polygon points="552 352 562 364 547 361 553 359" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="52" x="491" y="325" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="517" y="342" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >NOT ab</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 162 441 C 220 441 278 442 336 442" />
+ <polygon points="322 436 336 442 322 447 326 442" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="73" x="212" y="429" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="248" y="446" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >NOT hij/z</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 82 436 C 4 460 63 336 94 412" />
+ <polygon points="91 397 94 412 82 402 89 403" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="38" x="28" y="392" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="47" y="409" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >\s/0</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 377 405 C 347 320 355 240 374 156" />
+ <polygon points="366 168 374 156 376 170 372 165" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="31" x="341" y="268" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="356" y="285" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >k/y</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 577 277 C 548 277 518 277 488 277" />
+ <polygon points="503 282 488 277 503 272 498 277" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="45" x="510" y="265" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="532" y="282" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >pqr/:</text>
+ <path transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:none;" d="M 574 158 C 586 184 597 211 609 237" />
+ <polygon points="608 222 609 237 599 226 605 228" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <rect width="52" x="565" y="186" height="24" transform="translate(5,-17)" style="stroke:rgb(255,255,255);stroke-width:1;fill:rgb(255,255,255);" />
+ <text x="591" y="203" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" text-anchor="middle" >\d-z/?</text>
+ <line transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(255,255,255);" y1="120" y2="120" x1="60" x2="118" />
+ <polygon points="104 114 118 120 104 125 108 120" transform="translate(5,-17)" style="stroke:rgb(0,0,0);stroke-width:1;fill:rgb(0,0,0);" />
+ <text x="5" y="124" transform="translate(5,-17)" style="fill:rgb(0,0,0);stroke-width:0;font-size:8;font-style:normal;font-weight:400;font-family:Courier;" >Reset</text>
+</svg>

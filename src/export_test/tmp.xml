@@ -1,0 +1,65 @@
+<ragel version="5.21" filename="tmp_actions.rl" lang="C">
+<ragel_def name="asdfsd">
+  <alphtype>char</alphtype>
+  <machine>
+    <action_list length="1">
+      <action id="0" name="accept" line="5" col="15"><text> res = 1; </text></action>
+    </action_list>
+    <action_table_list length="1">
+      <action_table id="0" length="1">0</action_table>
+    </action_table_list>
+    <start_state>1</start_state>
+    <error_state>0</error_state>
+    <entry_points>
+      <entry name="main">1</entry>
+    </entry_points>
+    <state_list length="3">
+      <state id="0">
+      <trans_list length="0">
+      </trans_list>
+      </state>
+
+      <state id="1">
+      <trans_list length="3">
+        <t>91 91 2 0</t>
+        <t>93 93 2 0</t>
+        <t>97 97 2 0</t>
+      </trans_list>
+      </state>
+
+      <state id="2" final="t">
+      <trans_list length="0">
+      </trans_list>
+      </state>
+    </state_list>
+  </machine>
+</ragel_def>
+<host line="1" col="1"></host>
+<host line="10">
+
+
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+</host>
+<write def_name="asdfsd" line="16" col="4"><arg>data</arg></write>
+<host line="17">
+int parse(char* string)
+{
+  int cs;
+  int res=0;
+  char *p, *pe;
+
+  p = string;
+  pe = p + strlen(string);
+
+  </host>
+<write def_name="asdfsd" line="27" col="6"><arg>init</arg></write>
+<host line="28">  </host>
+<write def_name="asdfsd" line="28" col="6"><arg>exec</arg></write>
+<host line="29">
+  return res;
+}
+
+</host>
+</ragel>

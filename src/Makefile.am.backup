@@ -1,0 +1,214 @@
+qfsmdir = $(prefix)/qfsm
+qfsmbindir = $(qfsmdir)/bin
+qfsmbin_PROGRAMS = qfsm
+
+LDADD =
+
+#AM_CXXFLAGS := $(AM_CXXFLAGS) $(QT_CXXFLAGS)
+AM_CXXFLAGS = $(QT_CXXFLAGS)
+qfsm_LDADD   =  $(LDADD) $(QT_LDADD) 
+
+
+
+%__moc.cpp: %.h
+	$(MOC) -o $@ $<
+
+%.h: %.ui
+	$(UIC) -o $@ $<
+
+%.cpp: %.ui
+	$(UIC) -o $@ -impl $*.h $<
+
+
+qfsm_UI = \
+	ExportAHDLDlg.h \
+	ExportAHDLDlg.cpp \
+	ExportRagelDlg.h \
+	ExportRagelDlg.cpp \
+	ExportStateTableDlg.h \
+	ExportStateTableDlg.cpp  \
+	ExportVerilogDlg.h \
+	ExportVerilogDlg.cpp  \
+	ExportVHDLDlg.h \
+	ExportVHDLDlg.cpp  \
+	ICheckDlg.h \
+	ICheckDlg.cpp  \
+	MachinePropertiesDlg.h \
+	MachinePropertiesDlg.cpp  \
+	OptDisplayDlg.h \
+	OptDisplayDlg.cpp  \
+	OptGeneralDlg.h \
+	OptGeneralDlg.cpp  \
+	OptPrintingDlg.h \
+	OptPrintingDlg.cpp  \
+	SimulatorDlg.h \
+	SimulatorDlg.cpp  \
+	StatePropertiesDlg.h \
+	StatePropertiesDlg.cpp  \
+	TransitionPropertiesDlg.h \
+	TransitionPropertiesDlg.cpp 
+
+
+ExportAHDLDlg.h: ExportAHDLDlg.ui
+ExportAHDLDlg.cpp: ExportAHDLDlg.ui ExportAHDLDlg.h
+ExportRagelDlg.h: ExportRagelDlg.ui
+ExportRagelDlg.cpp: ExportRagelDlg.ui ExportRagelDlg.h
+ExportStateTableDlg.h: ExportStateTableDlg.ui
+ExportStateTableDlg.cpp: ExportStateTableDlg.ui ExportStateTableDlg.h
+ExportVerilogDlg.h: ExportVerilogDlg.ui
+ExportVerilogDlg.cpp: ExportVerilogDlg.ui ExportVerilogDlg.h
+ExportVHDLDlg.h: ExportVHDLDlg.ui
+ExportVHDLDlg.cpp: ExportVHDLDlg.ui ExportVHDLDlg.h
+ICheckDlg.h: ICheckDlg.ui 
+ICheckDlg.cpp: ICheckDlg.ui ICheckDlg.ui 
+MachinePropertiesDlg.h: MachinePropertiesDlg.ui 
+MachinePropertiesDlg.cpp: MachinePropertiesDlg.ui MachinePropertiesDlg.h 
+OptDisplayDlg.h: OptDisplayDlg.ui 
+OptDisplayDlg.cpp: OptDisplayDlg.ui OptDisplayDlg.h 
+OptGeneralDlg.h: OptGeneralDlg.ui 
+OptGeneralDlg.cpp: OptGeneralDlg.ui OptGeneralDlg.h 
+OptPrintingDlg.h: OptPrintingDlg.ui 
+OptPrintingDlg.cpp: OptPrintingDlg.ui OptPrintingDlg.h 
+SimulatorDlg.h: SimulatorDlg.ui 
+SimulatorDlg.cpp: SimulatorDlg.ui SimulatorDlg.h 
+StatePropertiesDlg.h: StatePropertiesDlg.ui 
+StatePropertiesDlg.cpp: StatePropertiesDlg.ui StatePropertiesDlg.h 
+TransitionPropertiesDlg.h: TransitionPropertiesDlg.ui 
+TransitionPropertiesDlg.cpp: TransitionPropertiesDlg.ui TransitionPropertiesDlg.h 
+
+
+qfsm_MOC = \
+	AppInfo__moc.cpp \
+	Draw__moc.cpp \
+	Edit__moc.cpp \
+	Export__moc.cpp \
+	ExportAHDLDlg__moc.cpp \
+	ExportAHDLDlgImpl__moc.cpp \
+	ExportRagelDlg__moc.cpp \
+	ExportRagelDlgImpl__moc.cpp \
+	ExportStateTableDlg__moc.cpp \
+	ExportStateTableDlgImpl__moc.cpp \
+	ExportVerilogDlg__moc.cpp \
+	ExportVerilogDlgImpl__moc.cpp \
+	ExportVHDLDlg__moc.cpp \
+	ExportVHDLDlgImpl__moc.cpp \
+	FileIO__moc.cpp \
+	GState__moc.cpp \
+	ICheckDlg__moc.cpp \
+	ICheckDlgImpl__moc.cpp \
+	Machine__moc.cpp \
+	MachineManager__moc.cpp \
+	MachinePropertiesDlg__moc.cpp \
+	MachinePropertiesDlgImpl__moc.cpp \
+	MainControl__moc.cpp \
+	MainWindow__moc.cpp \
+	OptDisplayDlg__moc.cpp \
+	OptDisplayDlgImpl__moc.cpp \
+	OptGeneralDlg__moc.cpp \
+	OptGeneralDlgImpl__moc.cpp \
+	Options__moc.cpp \
+	OptPrintingDlg__moc.cpp \
+	OptPrintingDlgImpl__moc.cpp \
+	PrintManager__moc.cpp \
+	Project__moc.cpp \
+	ScrollView__moc.cpp \
+	Selection__moc.cpp \
+	Simulator__moc.cpp \
+	SimulatorDlg__moc.cpp \
+	SimulatorDlgImpl__moc.cpp \
+	StateManager__moc.cpp \
+	StatePropertiesDlg__moc.cpp \
+	StatePropertiesDlgImpl__moc.cpp \
+	StatusBar__moc.cpp \
+	TableBuilderASCII__moc.cpp \
+	TableBuilder__moc.cpp \
+	TableBuilderHTML__moc.cpp \
+	TableBuilderLatex__moc.cpp \
+	TransitionPropertiesDlg__moc.cpp \
+	TransitionPropertiesDlgImpl__moc.cpp \
+	WSpinBox__moc.cpp \
+	XMLHandler__moc.cpp
+
+
+
+
+
+qfsm_SOURCES = AppInfo.cpp Convert.cpp DocStatus.cpp Draw.cpp DRect.cpp \
+	Edit.cpp Error.cpp ExportAHDL.cpp ExportEPS.cpp ExportKISS.cpp \
+	ExportRagel.cpp ExportSVG.cpp ExportVHDL.cpp ExportStateTable.cpp \
+	ExportVerilog.cpp Export.cpp \
+	FileIO.cpp GITransition.cpp \
+	GObject.cpp Grid.cpp GState.cpp GTransition.cpp ICheck.cpp IOInfoASCII.cpp \
+	IOInfoBin.cpp IOInfoList.cpp IOInfoText.cpp IOInfo.cpp \
+	ListBoxItems.cpp Machine.cpp MachineManager.cpp \
+	MainControl.cpp main.cpp MainWindow.cpp MimeMachine.cpp OptGeneral.cpp \
+	Options.cpp PrintManager.cpp Project.cpp ScrollView.cpp Selection.cpp \
+	Simulator.cpp State.cpp StateManager.cpp StatusBar.cpp \
+	TableBuilder.cpp TableBuilderASCII.cpp TableBuilderHTML.cpp \
+	TableBuilderLatex.cpp ToolTipSV.cpp \
+	Transition.cpp TransitionInfoASCII.cpp TransitionInfoBin.cpp \
+	TransitionInfo.cpp TransitionInfoText.cpp \
+	TransitionManager.cpp UndoBuffer.cpp Undo.cpp \
+	Utils.cpp \
+	XMLHandler.cpp Zoom.cpp \
+	ExportAHDLDlgImpl.cpp ExportRagelDlgImpl.cpp ExportStateTableDlgImpl.cpp \
+	ExportVerilogDlgImpl.cpp ExportVHDLDlgImpl.cpp \
+	ICheckDlgImpl.cpp MachinePropertiesDlgImpl.cpp OptDisplayDlgImpl.cpp \
+	OptGeneralDlgImpl.cpp OptPrintingDlgImpl.cpp \
+	SimulatorDlgImpl.cpp StatePropertiesDlgImpl.cpp \
+	TransitionPropertiesDlgImpl.cpp \
+	WSpinBox.cpp \
+	ExportAHDLDlg.ui ExportRagelDlg.ui ExportStateTableDlg.ui ExportVerilogDlg.ui \
+	ExportVHDLDlg.ui \
+	ICheckDlg.ui MachinePropertiesDlg.ui OptDisplayDlg.ui \
+	OptGeneralDlg.ui OptPrintingDlg.ui SimulatorDlg.ui StatePropertiesDlg.ui \
+	TransitionPropertiesDlg.ui \
+	$(qfsm_MOC) $(qfsm_UI)
+
+
+BUILT_SOURCES = $(qfsm_MOC) $(qfsm_UI)
+
+
+CLEANFILES = $(BUILT_SOURCES)
+
+ 
+EXTRA_DIST = AppInfo.h Const.h Convert.h DocStatus.h Draw.h DRect.h Edit.h \
+	Error.h ExportAHDL.h ExportEPS.h ExportKISS.h ExportRagel.h ExportSVG.h \
+	ExportVHDL.h ExportRagel.h ExportStateTable.h ExportVerilog.h Export.h FileIO.h \
+	GITransition.h \
+	GObject.h Grid.h \
+	GState.h GTransition.h ICheck.h IOInfoASCII.h IOInfoBin.h \
+	IOInfoList.h IOInfoText.h IOInfo.h \
+	ListBoxItems.h Machine.h MachineManager.h MainControl.h \
+	MainWindow.h \
+	MimeMachine.h OptGeneral.h Options.h PrintManager.h Project.h \
+	ScrollView.h Selection.h Simulator.h State.h StateManager.h StatusBar.h \
+	TableBuilder.h TableBuilderASCII.h TableBuilderHTML.h \
+	TableBuilderLatex.h ToolTipSV.h \
+	Transition.h TransitionInfoASCII.h \
+	TransitionInfoBin.h \
+	TransitionInfo.h TransitionInfoText.h \
+	TransitionManager.h UndoBuffer.h Undo.h Utils.h WSpinBox.h \
+	XMLHandler.h Zoom.h \
+	ExportAHDLDlgImpl.h ExportRagelDlgImpl.h ExportStateTableDlgImpl.h \
+	ExportVerilogDlgImpl.h ExportVHDLDlgImpl.h \
+	ICheckDlgImpl.h MachinePropertiesDlgImpl.h OptDisplayDlgImpl.h \
+	OptGeneralDlgImpl.h OptPrintingDlgImpl.h SimulatorDlgImpl.h StatePropertiesDlgImpl.h \
+	TransitionPropertiesDlgImpl.h \
+	ExportAHDLDlg.ui ExportRagelDlg.ui ExportStateTableDlg.ui \
+	ExportVerilogDlg.ui ExportVHDLDlg.ui \
+	ICheckDlg.ui MachinePropertiesDlg.ui \
+	OptDisplayDlg.ui \
+	OptGeneralDlg.ui OptPrintingDlg.ui SimulatorDlg.ui \
+	StatePropertiesDlg.ui \
+	TransitionPropertiesDlg.ui \
+	ExportAHDLDlg.ui.h ExportStateTableDlg.ui.h \
+	ExportVerilogDlg.ui.h ExportVHDLDlg.ui.h \
+	ICheckDlg.ui.h MachinePropertiesDlg.ui.h OptDisplayDlg.ui.h \
+	OptGeneralDlg.ui.h SimulatorDlg.ui.h \
+	StatePropertiesDlg.ui.h \
+	TransitionPropertiesDlg.ui.h 
+
+
+
+

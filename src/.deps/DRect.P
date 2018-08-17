@@ -1,0 +1,35 @@
+DRect.o: DRect.cpp DRect.h /usr/lib/qt3/include/qrect.h \
+  /usr/lib/qt3/include/qsize.h /usr/lib/qt3/include/qpoint.h \
+  /usr/lib/qt3/include/qwindowdefs.h /usr/lib/qt3/include/qobjectdefs.h \
+  /usr/lib/qt3/include/qglobal.h /usr/lib/qt3/include/qconfig.h \
+  /usr/lib/qt3/include/qmodules.h /usr/lib/qt3/include/qfeatures.h \
+  /usr/lib/qt3/include/qstring.h /usr/lib/qt3/include/qcstring.h \
+  /usr/lib/qt3/include/qmemarray.h /usr/lib/qt3/include/qgarray.h \
+  /usr/lib/qt3/include/qshared.h /usr/include/string.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /usr/lib/gcc-lib/i486-suse-linux/3.2/include/stddef.h \
+  /usr/include/xlocale.h /usr/lib/qt3/include/qnamespace.h
+DRect.cpp :
+DRect.h :
+/usr/lib/qt3/include/qrect.h :
+/usr/lib/qt3/include/qsize.h :
+/usr/lib/qt3/include/qpoint.h :
+/usr/lib/qt3/include/qwindowdefs.h :
+/usr/lib/qt3/include/qobjectdefs.h :
+/usr/lib/qt3/include/qglobal.h :
+/usr/lib/qt3/include/qconfig.h :
+/usr/lib/qt3/include/qmodules.h :
+/usr/lib/qt3/include/qfeatures.h :
+/usr/lib/qt3/include/qstring.h :
+/usr/lib/qt3/include/qcstring.h :
+/usr/lib/qt3/include/qmemarray.h :
+/usr/lib/qt3/include/qgarray.h :
+/usr/lib/qt3/include/qshared.h :
+/usr/include/string.h :
+/usr/include/features.h :
+/usr/include/sys/cdefs.h :
+/usr/include/gnu/stubs.h :
+/usr/lib/gcc-lib/i486-suse-linux/3.2/include/stddef.h :
+/usr/include/xlocale.h :
+/usr/lib/qt3/include/qnamespace.h :

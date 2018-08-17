@@ -1,0 +1,29 @@
+Checklist before the release of a new version
+---------------------------------------------
+
+- Update AppInfo.cpp
+- Update Changlog
+- Update lsm file
+- Update README and INSTALL file
+- Update Documentation
+- Localise Qfsm
+
+- Build release version (change setting in CMakeLists.txt)
+
+- Create source package: "make package_source"
+- Update qfsm.spec and create RPM
+  - copy qfsm-<version>-Source.tar.bz2 to /usr/src/packages/SOURCES
+  - uncompress, rename to qfsm-<version> (e.g. qfsm-0.54.0), and recompress (.tar.bz2)
+
+  only once:
+  - make sure to put in ~/.rpmmacros
+  %_topdir               /usr/src/packages/
+  %_tmppath              /usr/src/packages/tmp
+
+  - in ~/prog/qfsm/ as root type "rpmbuild -ba qfsm.spec"
+  - binary RPM in /usr/src/packages/RPMS/i586/, source RPM in /usr/src/packages/SRPMS/
+- Create windows executable + installer
+- Upload files on sourceforge
+  - scp ./* sttodu,qfsm@frs.sourceforge.net:/home/frs/project/q/qf/qfsm/
+- Update web page
+  - ssh -t sttodu,qfsm@shell.sourceforge.net create

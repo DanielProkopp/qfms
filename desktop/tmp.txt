@@ -1,0 +1,4 @@
+Search path is now: [2]
+Could not create cache file in directory '2':
+	Error opening directory '2': No such file or directory
+No directories in update-desktop-database search path could be processed and updated.

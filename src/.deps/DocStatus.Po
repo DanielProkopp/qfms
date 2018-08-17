@@ -1,0 +1,3 @@
+DocStatus.o DocStatus.o: DocStatus.cpp DocStatus.h
+
+DocStatus.h:

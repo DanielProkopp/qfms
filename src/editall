@@ -1,0 +1,5 @@
+#!/bin/sh
+
+vi `ls -F |grep "\."|grep -v [\*/]| grep -v moc |grep -v \.o$ \
+     	  |grep -v Dlg.h | grep -v Dlg.cpp | egrep -v ".*\.ui[~]?$" \
+          |grep -v Makefile | grep -v "\.cw" | egrep -v ".*\.ui.h[~]?$"` 

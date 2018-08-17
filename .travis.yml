@@ -1,0 +1,7 @@
+language: cpp
+
+build:
+    ./configure --prefix=./dist && make
+    
+install:
+    make install

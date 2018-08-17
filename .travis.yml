@@ -1,4 +1,4 @@
 language: cpp
 
 build:
-    ./configure --prefix=./dist && make
+    source ./configure --prefix=./dist && make

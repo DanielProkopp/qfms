@@ -1,6 +1,6 @@
 language: cpp
 
-script:
+script: scons
 
 build:
     cmake ./ && make

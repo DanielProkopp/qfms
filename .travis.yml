@@ -4,4 +4,9 @@ language: cpp
 
 script: cmake ./ && make
 
-build:
+notifications:
+  email:
+    recipients:
+      - danielprokopp2@gmail.com
+    on_success: always
+    on_failure: always
